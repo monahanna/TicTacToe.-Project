@@ -1,9 +1,1 @@
-# Tic_Tac_Toe
-
-#This is game of Tic-Tac-Toe 
-
-#This game will be programmed in the codeing language of Python
-
-The game will be either a 2 player on the same computer or against the computer istelf
-
-#This is also a comment to show that I have made a another chanfe to this file
+Tic Tac Toe is a classic paper-and-pencil game played on a 3x3 grid. But our example would be played without the paper. The game is typically played by two players, who take turns marking spaces on the grid with their respective symbols. One player uses "X" and the other player uses "O". The objective of the game is to be the first to create a line of three of your symbols horizontally, vertically, or diagonally on the grid, or to fill the entire grid without any player achieving this goal, resulting in a draw. When a row of three of either symbol is created, a box will pop up that displays which symbol has won, and the game will reset automatically to be played again. you will have the choice to play again or change characters to play someone else.
