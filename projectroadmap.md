@@ -1,7 +1,7 @@
-# Project Roadmap
-- [x] Join KSU IS organization and create team
-- [x] Create Readme file and commit changes
-- [x] Find at least one source code
-- [ ] Submit Final project (Due May 8)
-
-#This is also a comment to show i made a change to my project road map
+# Sprint 1:
+- [x] Proposed a topic and submitted it for approval.
+- [x] Awaiting approval.
+- [x] Joined KSU-IS.
+- [x] Created a repository on GitHub.
+- [x] Developed a README.md and projectroadmap.md.
+- [x] Researched similar repositories within the organization related to the program.     
