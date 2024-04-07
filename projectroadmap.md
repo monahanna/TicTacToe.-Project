@@ -8,4 +8,6 @@
 
 # Sprint 2:
 - [ ] make small updates and commit messages in repository
-- [ ] 
+- [ ] 6 code changes from Mona
+- [ ] 6 code changes from Angela
+
