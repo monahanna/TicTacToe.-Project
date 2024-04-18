@@ -45,7 +45,8 @@ def CheckWin():
     elif(board[1]!=' ' and board[2]!=' ' and board[3]!=' ' and board[4]!=' ' and board[5]!=' ' and board[6]!=' ' and board[7]!=' ' and board[8]!=' ' and board[9]!=' '):    
         Game=Draw    
     else:            
-        Game=Running   
+        Game=Running  
+print("Welcome to Tic-Tac-Toe!")  
 print("Tic-Tac-Toe Game")    
 print("Player 1 [X] --- Player 2 [O]\n")    
 print()    
