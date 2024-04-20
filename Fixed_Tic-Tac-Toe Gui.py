@@ -46,7 +46,10 @@ def CheckWin():
         Game=Draw    
     else:            
         Game=Running  
-print("Welcome to Tic-Tac-Toe!")  
+#Added a welcome message, these print statements are placed at the beginning of the code, just before the game starts. They will be executed when the program runs, displaying the welcome message to the players.
+print("Welcome to Tic-Tac-Toe!")
+print("Get ready to enjoy some exciting rounds of Tic-Tac-Toe!")
+print("May the best player win! Have fun!")
 # added line 51 describing the rules of the game for players who haven't played the game before.
 print("\nRules:\nThis is a two player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
 print("\n\n\nTic-Tac-Toe Game\n")  
