@@ -47,7 +47,9 @@ def CheckWin():
     else:            
         Game=Running  
 print("Welcome to Tic-Tac-Toe!")  
-print("Tic-Tac-Toe Game")    
+# added line 51 describing the rules of the game for players who haven't played the game before.
+print("\nRules:\nThis is a two player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
+print("\n\n\nTic-Tac-Toe Game")    
 print("Player 1 [X] --- Player 2 [O]\n")    
 print()    
 print()    
@@ -56,6 +58,7 @@ time.sleep(3)
 while(Game == Running):    
     os.system('cls')    
     DrawBoard()    
+
     if(player % 2 != 0):    
         print("Player 1's chance")    
         Mark = 'X'    
