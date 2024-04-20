@@ -18,7 +18,7 @@
 - [ ] each commit has a comment explains what you did
 
 - [ ] 6 code changes from Angela
-    - [ ] 1
+    - [x] 1
     - [ ] 2
     - [ ] 3
     - [ ] 4
