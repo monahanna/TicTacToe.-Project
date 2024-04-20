@@ -19,7 +19,7 @@
 
 - [ ] 6 code changes from Angela
     - [x] 1
-    - [ ] 2
+    - [x] 2
     - [ ] 3
     - [ ] 4
     - [ ] 5
