@@ -9,5 +9,22 @@
 # Sprint 2:
 - [ ] make small updates and commit messages in repository
 - [ ] 6 code changes from Mona
+    - [ ] 1
+    - [ ] 2
+    - [ ] 3
+    - [ ] 4
+    - [ ] 5
+    - [ ] 6
+- [ ] each commit has a comment explains what you did
+
 - [ ] 6 code changes from Angela
+    - [ ] 1
+    - [ ] 2
+    - [ ] 3
+    - [ ] 4
+    - [ ] 5
+    - [ ] 6
+- [ ] each commit has a comment explains what you did
+
+# Sprint 3:
 
