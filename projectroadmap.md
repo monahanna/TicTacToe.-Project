@@ -16,15 +16,17 @@
     - [ ] 5
     - [ ] 6
 - [ ] each commit has a comment explains what you did
+- [ ] submitted quiz
 
-- [ ] 6 code changes from Angela
+- [x] 6 code changes from Angela
     - [x] 1
     - [x] 2
     - [x] 3
     - [x] 4
-    - [ ] 5
-    - [ ] 6
+    - [x] 5
+    - [x] 6
 - [ ] each commit has a comment explains what you did
+- [ ] submitted quiz
 
 # Sprint 3:
 
