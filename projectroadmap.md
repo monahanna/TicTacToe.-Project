@@ -9,9 +9,9 @@
 # Sprint 2:
 - [ ] make small updates and commit messages in repository
 - [ ] 6 code changes from Mona
-    - [ ] 1
-    - [ ] 2
-    - [ ] 3
+    - [x] 1
+    - [x] 2
+    - [x] 3
     - [ ] 4
     - [ ] 5
     - [ ] 6
