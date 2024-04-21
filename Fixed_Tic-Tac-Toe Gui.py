@@ -49,6 +49,14 @@ def CheckWin():
 print("Welcome to Tic-Tac-Toe!")
 print("Get ready to enjoy some exciting rounds of Tic-Tac-Toe!")
 print("May the best player win! Have fun!")
+# added ASCII art representing a Tic-Tac-Toe board at the beginning of the code. This enhances the visual presentation of the game and gives players a clear understanding of the game board layout. I also added a comment to explain the purpose of the ASCII art.
+print("\n" + 
+    " 1 | 2 | 3 \n" +
+    "___|___|___\n" +
+    " 4 | 5 | 6 \n" +
+    "___|___|___\n" +
+    " 7 | 8 | 9 \n" +
+    "   |   |   \n") 
 # added line 51 describing the rules of the game for players who haven't played the game before.
 print("\nRules:\nThis is a two player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
 print("\n\n\nTic-Tac-Toe Game\n")  
