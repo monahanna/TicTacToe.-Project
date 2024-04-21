@@ -92,13 +92,21 @@ while(Game == Running):
      
 os.system('cls')    
 DrawBoard()    
-if(Game==Draw):    
-    print("Game Draw")    
+if(Game==Draw):  
+    #added ascii art "Draw" when it is a tie  
+    print("It's a draw!")
+    print(" _____ ")                    
+    print("|  __ \ ")                   
+    print("| |  | |_ __ __ ___      __")
+    print("| |  | | '__/ _` \ \ /\ / /")
+    print("| |__| | | | |_| |\ V  V / ")
+    print("|_____/|_|  \__,_| \_/\_/ ") 
+                           
 elif(Game==Win):    
     player-=1    
     if(player%2!=0): 
 #added ascii "congrats" art   
-        print(player_1,"Won!") 
+        print(player_1,"Has won!") 
         print('                                 _ ')      
         print('                                | | ')     
         print('  ___ ___  _ __   __ _ _ __ __ _| |_ ___ ')
@@ -108,7 +116,7 @@ elif(Game==Win):
         print('                  __| |                  ')
         print('                 |___|                   ')
     else: 
-        print(player_2,"Won!")   
+        print(player_2,"Has won!")   
         print('                                 _ ')      
         print('                                | | ')     
         print('  ___ ___  _ __   __ _ _ __ __ _| |_ ___ ')
