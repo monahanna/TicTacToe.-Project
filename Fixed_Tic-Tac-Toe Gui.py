@@ -103,5 +103,5 @@ elif(Game==Win):
 # added a prompt for players to choose whether they want to play another round after the game ends.
 # This allows players to decide if they want to continue playing without restarting the program.
 response = input("Do you want to play again? (yes/no): ")
-    if response.lower() != 'yes':
+if response.lower() != 'yes':
         play_again = False
