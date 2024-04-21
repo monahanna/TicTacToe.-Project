@@ -20,8 +20,8 @@
 - [ ] 6 code changes from Angela
     - [x] 1
     - [x] 2
-    - [ ] 3
-    - [ ] 4
+    - [x] 3
+    - [x] 4
     - [ ] 5
     - [ ] 6
 - [ ] each commit has a comment explains what you did
