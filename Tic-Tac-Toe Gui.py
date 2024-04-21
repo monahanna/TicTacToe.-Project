@@ -26,7 +26,7 @@ def CheckPosition(x):
         return False        
 def CheckWin():    
     global Game  
-  if(board[1] == board[2] and board[2] == board[3] and board[1] != ' '):    
+    if(board[1] == board[2] and board[2] == board[3] and board[1] != ' '):    
         Game = Win    
     elif(board[4] == board[5] and board[5] == board[6] and board[4] != ' '):    
         Game = Win    
@@ -42,7 +42,7 @@ def CheckWin():
         Game = Win    
     elif(board[3] == board[5] and board[5] == board[7] and board[5] != ' '):    
         Game=Win   
-   elif(board[1]!=' ' and board[2]!=' ' and board[3]!=' ' and board[4]!=' ' and board[5]!=' ' and board[6]!=' ' and board[7]!=' ' and board[8]!=' ' and board[9]!=' '):    
+    elif(board[1]!=' ' and board[2]!=' ' and board[3]!=' ' and board[4]!=' ' and board[5]!=' ' and board[6]!=' ' and board[7]!=' ' and board[8]!=' ' and board[9]!=' '):    
         Game=Draw    
     else:            
         Game=Running   
@@ -61,7 +61,7 @@ while(Game == Running):
     else:    
         print("Player 2's chance")    
         Mark = 'O'    
-   choice = int(input("Enter the position between [1-9] where you want to mark : "))    
+    choice = int(input("Enter the position between [1-9] where you want to mark : "))    
     if(CheckPosition(choice)):    
         board[choice] = Mark    
         player+=1    
