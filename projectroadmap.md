@@ -25,7 +25,7 @@
     - [x] 4
     - [x] 5
     - [x] 6
-- [ ] each commit has a comment explains what you did
+- [x] each commit has a comment explains what you did
 - [ ] submitted quiz
 
 # Sprint 3:
