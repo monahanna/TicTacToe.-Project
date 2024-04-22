@@ -67,7 +67,10 @@ print("\n" +
 
 # added describing the rules of the game for players who haven't played the game before.
 print("\nRules:\nThis is a two player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
-print("\n\n\nTic-Tac-Toe Game\n")   
+
+# Prompt to choose number of rounds
+rounds = int(input("\nHow many rounds do you want to play? (1 or 3): "))
+    
 # instead of having "player 1 and player 2", users are able to name themselves
 player_1 = input('Player 1, please enter your name: ')  
 print('Hi',player_1 + ", you are player 1.\n")
