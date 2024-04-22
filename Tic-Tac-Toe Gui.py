@@ -24,7 +24,14 @@ def CheckPosition(x):
         return True    
     else:    
         return False     
-
+        
+# Function to draw the game board using the selected theme
+def DrawBoard(theme):  
+    # Apply colors from the selected theme
+    border_color = theme['border']
+    empty_color = theme['empty']
+    player1_color = theme['player1']
+    player2_color = theme['player2']
     
     #added a border to the board game and changed "%c" to "%s" to accept string
 
