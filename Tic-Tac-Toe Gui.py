@@ -54,6 +54,11 @@ print("Tic-Tac-Toe Game")
 # added describing the rules of the game for players who haven't played the game before.
 print("\nRules:\nThis is a two player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
 print("\n\n\nTic-Tac-Toe Game\n")   
+# instead of having "player 1 and player 2", users are able to name themselves
+player_1 = input('Player 1, please enter your name: ')  
+print('Hi',player_1 + ", you are player 1.\n")
+player_2 = input('Player 2, please enter your name: ')
+print('Hi',player_2 + ", you are player 2.\n")
 print("Player 1 [X] --- Player 2 [O]\n")    
 print()    
 print()    
@@ -63,10 +68,10 @@ while(Game == Running):
     os.system('cls')    
     DrawBoard()    
     if(player % 2 != 0):    
-        print("Player 1's chance")    
+        print(player_1 + "-Player 1's chance")    
         Mark = 'X'    
     else:    
-        print("Player 2's chance")    
+        print(player_2 + "-Player 2's chance")    
         Mark = 'O'    
     choice = int(input("Enter the position between [1-9] where you want to mark : "))    
     if(CheckPosition(choice)):    
@@ -81,6 +86,6 @@ if(Game==Draw):
 elif(Game==Win):    
     player-=1    
     if(player%2!=0):    
-        print("Player 1 Won")    
+        print(player_1,"Has won!")    
     else:    
-        print("Player 2 Won")
+        print(player_2,"Has won!")
