@@ -14,9 +14,8 @@
     - [x] 2
     - [x] 3
     - [x] 4
-    - [ ] 5
-    - [ ] 6
-- [ ] each commit has a comment explains what you did
+    - [x] 6
+- [x] each commit has a comment explains what you did
 - [ ] submitted quiz
 
 - [x] 6 code changes from Angela
