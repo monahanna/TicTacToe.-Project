@@ -1,3 +1,7 @@
+#added welcome and excitement message
+print("Welcome to Tic-Tac-Toe!\n")  
+print("Get ready for an exciting game!\n")  
+
 import os    
 import time    
     
