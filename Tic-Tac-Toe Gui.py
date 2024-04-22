@@ -33,7 +33,7 @@ def DrawBoard(theme):
     player1_color = theme['player1']
     player2_color = theme['player2']
     
-      #added a border to the board game and changed "%c" to "%s" to accept string
+     #added a border to the board game and changed "%c" to "%s" to accept string
     # Draw the game board with colored elements
     print(border_color + " _________________")
     print("|  _____________  |")
