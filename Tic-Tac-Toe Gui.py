@@ -9,7 +9,8 @@ Draw = -1
 Running = 0    
 Stop = 1    
 Game = Running    
-Mark = 'X'    
+Mark = 'X'   
+
 # Define different themes with color codes
 themes = {
     1: {'border': '\033[95m', 'empty': '\033[0m', 'player1': '\033[91m', 'player2': '\033[94m'},
