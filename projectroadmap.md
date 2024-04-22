@@ -7,6 +7,7 @@
 - [x] Researched similar repositories within the organization related to the program.     
 
 # Sprint 2:
+- NOTE: Fixed_Tic-tac-Toe Gui.py is used to make changes on first, and then once finalized the changes are then transfered to Tic-Tac-Toe Gui.py
 - [ ] make small updates and commit messages in repository
 - [ ] 6 code changes from Mona
     - [x] 1
