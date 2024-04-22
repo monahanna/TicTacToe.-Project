@@ -1,8 +1,3 @@
-#added welcome and excitement message
-print("Welcome to Tic-Tac-Toe!\n")  
-print("Get ready for an exciting game!\n")  
-print("May the best player win! Have fun!")
-
 import os    
 import time    
     
@@ -55,7 +50,21 @@ def CheckWin():
         Game=Draw    
     else:            
         Game=Running   
-print("Tic-Tac-Toe Game") 
+        
+# added a welcome and excitement message.
+print("Welcome to Tic-Tac-Toe!")
+print("Get ready to enjoy some exciting rounds of Tic-Tac-Toe!")
+print("May the best player win! Have fun!")
+
+# added ASCII art representing a Tic-Tac-Toe board at the beginning of the code. 
+print("\n" + 
+    " 1 | 2 | 3 \n" +
+    "___|___|___\n" +
+    " 4 | 5 | 6 \n" +
+    "___|___|___\n" +
+    " 7 | 8 | 9 \n" +
+    "   |   |   \n")
+
 # added describing the rules of the game for players who haven't played the game before.
 print("\nRules:\nThis is a two player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
 print("\n\n\nTic-Tac-Toe Game\n")   
