@@ -50,7 +50,10 @@ def CheckWin():
         Game=Draw    
     else:            
         Game=Running   
-print("Tic-Tac-Toe Game")    
+print("Tic-Tac-Toe Game") 
+# added describing the rules of the game for players who haven't played the game before.
+print("\nRules:\nThis is a two player game where each player will take turns marking\n an empty square and who evers gets 3 of their mark in a row in\n any direction wins the game!")
+print("\n\n\nTic-Tac-Toe Game\n")   
 print("Player 1 [X] --- Player 2 [O]\n")    
 print()    
 print()    
