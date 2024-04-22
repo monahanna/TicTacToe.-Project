@@ -11,13 +11,17 @@ Stop = 1
 
 Game = Running    
 Mark = 'X'    
-def DrawBoard():    
-    print(" %c | %c | %c " % (board[1],board[2],board[3]))    
-    print("___|___|___")    
-    print(" %c | %c | %c " % (board[4],board[5],board[6]))    
-    print("___|___|___")    
-    print(" %c | %c | %c " % (board[7],board[8],board[9]))    
-    print("   |   |   ")    
+def DrawBoard():  
+      #added a border to the board game and changed "%c" to "%s" to accept string
+    print(" _________________")
+    print("|  _____________  |")
+    print("| |  %s | %s | %s  | |" % (board[1],board[2],board[3]))    
+    print("| | ___|___|___ | |")    
+    print("| |  %s | %s | %s  | |" % (board[4],board[5],board[6]))    
+    print("| | ___|___|___ | |")    
+    print("| |  %s | %s | %s  | |" % (board[7],board[8],board[9]))    
+    print("| |____|___|____| |") 
+    print("|_________________|")    
 
 def CheckPosition(x):    
     if(board[x] == ' '):    
