@@ -59,7 +59,10 @@ player_1 = input('Player 1, please enter your name: ')
 print('Hi',player_1 + ", you are player 1.\n")
 player_2 = input('Player 2, please enter your name: ')
 print('Hi',player_2 + ", you are player 2.\n")
-print("Player 1 [X] --- Player 2 [O]\n")    
+# allowed players to customize their marks instead of the traditional "X" and "O"
+player1_mark = input(player_1 + " please input your mark character if you wish to customize. To use the default mark please enter 'X': ")
+player2_mark = input(player_2 + " please input your mark character if you wish to customize. To use the default mark please enter 'O': ")
+print("Player 1 [" + player1_mark + "] --- Player 2 [" + player2_mark + "]\n")    
 print()    
 print()    
 print("Please Wait...")    
@@ -69,10 +72,10 @@ while(Game == Running):
     DrawBoard()    
     if(player % 2 != 0):    
         print(player_1 + "-Player 1's chance")    
-        Mark = 'X'    
+        Mark = player1_mark    
     else:    
         print(player_2 + "-Player 2's chance")    
-        Mark = 'O'    
+        Mark = player2_mark    
     choice = int(input("Enter the position between [1-9] where you want to mark : "))    
     if(CheckPosition(choice)):    
         board[choice] = Mark    
