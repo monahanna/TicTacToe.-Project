@@ -79,7 +79,11 @@ def CheckWin():
         Game=Draw    
     else:            
         Game=Running  
-   
+        
+# Added a welcome and excitement message.
+print("Welcome to Tic-Tac-Toe!")
+print("Get ready to enjoy some exciting rounds of Tic-Tac-Toe!")
+print("May the best player win! Have fun!")   
 
 
 
