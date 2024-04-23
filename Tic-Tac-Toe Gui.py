@@ -33,6 +33,18 @@ def DrawBoard(theme):
     player1_color = theme['player1']
     player2_color = theme['player2']
     
+#added a border to the board game and changed "%c" to "%s" to accept string
+# Draw the game board with colored elements
+    print(border_color + " _________________")
+    print("|  _____________  |")
+    print("| |  " + empty_color + "%s" % board[1] + border_color + " | " + empty_color + "%s" % board[2] + border_color + " | " + empty_color + "%s" % board[3] + border_color + "  | |")
+    print("| | ___|___|___ | |")    
+    print("| |  " + empty_color + "%s" % board[4] + border_color + " | " + empty_color + "%s" % board[5] + border_color + " | " + empty_color + "%s" % board[6] + border_color + "  | |")
+    print("| | ___|___|___ | |")    
+    print("| |  " + empty_color + "%s" % board[7] + border_color + " | " + empty_color + "%s" % board[8] + border_color + " | " + empty_color + "%s" % board[9] + border_color + "  | |")    
+    print("| |____|___|____| |") 
+    print("|_________________|" + empty_color) 
+    
 # Function to draw the game board using the selected theme
 def DrawBoard(theme):  
     # Apply colors from the selected theme
